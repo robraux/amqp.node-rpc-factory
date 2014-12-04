@@ -1,6 +1,6 @@
 {
   "name": "amqp-rpc-factory",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Node.js AMQP RPC Consumer and Publisher Factory",
   "repository": {
     "type": "git",
@@ -25,21 +25,21 @@
   "dependencies": {
     "amqplib": "^0.3.0",
     "lodash": "^2.4.1",
-    "q": "^1.0.1",
+    "q": "^1.1.2",
     "uuid": "^2.0.1"
   },
   "devDependencies": {
-    "bunyan": "^1.2.0",
-    "chai": "^1.9.2",
+    "bunyan": "^1.2.3",
+    "chai": "^1.10.0",
     "coveralls": "^2.11.2",
-    "express": "^4.10.0",
-    "gulp": "^3.8.9",
-    "gulp-jshint": "^1.8.5",
+    "express": "^4.10.4",
+    "gulp": "^3.8.10",
+    "gulp-jshint": "^1.9.0",
     "gulp-task-listing": "^0.3.0",
-    "istanbul": "^0.3.2",
+    "istanbul": "^0.3.4",
     "koa": "^0.13.0",
-    "koa-router": "^3.5.0",
+    "koa-router": "^3.7.0",
     "mocha": "^2.0.1",
-    "sinon": "^1.10.3"
+    "sinon": "^1.12.1"
   }
 }
