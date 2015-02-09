@@ -25,7 +25,7 @@
   "dependencies": {
     "amqplib": "^0.3.0",
     "lodash": "^3.1.0",
-    "q": "^1.0.1",
+    "q": "^1.1.2",
     "uuid": "^2.0.1"
   },
   "devDependencies": {
