@@ -23,10 +23,13 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "amqplib": "^0.3.0",
+    "amqplib": "squaremo/amqp.node",
     "lodash": "2.4.1",
     "q": "^1.1.2",
     "uuid": "^2.0.1"
+  },
+  "scripts": {
+    "postinstall" : "cd node_modules/amqplib && make"
   },
   "devDependencies": {
     "bunyan": "^1.2.0",
